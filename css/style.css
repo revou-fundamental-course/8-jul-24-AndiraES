@@ -1,0 +1,423 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(../img/healthy-lifestyle.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header-content {
+   display: flex;
+}
+
+
+/* CONTAINER 01 */
+
+.container-01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 25%;
+    height: 500px;;
+    padding: 15px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    border: 1px solid rgb(245, 198, 109);
+    margin: 40px auto;
+}
+
+.header h1 {
+    font-size: 25px;
+}
+
+.header p {
+    font-size: 13px;
+}
+
+.advantages h3 {
+    font-size: 17px;
+}
+
+.advantages ol li {
+    font-size: 13px;
+}
+
+.bmi-explaination {
+    font-size: 13px;
+}
+
+
+
+/* CONTAINER 02 */
+
+.container-02 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    border: 1px solid rgb(245, 198, 109);
+    margin: 40px auto;
+}
+
+.content {
+    margin-top: 0px;
+}
+
+.sex {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.female-input {
+    margin-left: 25px;
+}
+
+.female, .male {
+    font-size: 13px;
+    margin-left: 4px;
+}
+
+.input h4 {
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.input input {
+    border: 1px solid rgb(245, 198, 109);
+    padding: 7px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.button {
+    margin-top: 15px;
+}
+
+button {
+    border: none;
+    padding: 6px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#hitung-bmi-00 {
+    background: rgb(170, 232, 251);
+    margin-right: 10px;
+}
+
+.reset {
+    background: #dfd7d7;
+}
+
+#hitung-bmi-00:hover {
+    background: rgb(195, 239, 249);
+    transition: 0.3s;
+}
+
+.reset:hover {
+    background: rgb(237, 229, 229);
+    transition: 0.3s;
+}
+
+
+/* END CONTENT */
+
+.end-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 25%;
+    height: 500px;;
+    padding: 15px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    border: 1px solid rgb(245, 198, 109);
+    margin: 40px auto;
+}
+
+.end-content p {
+    font-size: 13px;
+    margin-bottom: 40px;
+    /* background: blue; */
+}
+
+.social-media {
+    width: 100%;
+    /* background: red; */
+}
+
+.social-media h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 17px;
+}
+
+.logo {
+    margin-top: 15px;
+}
+
+.social-media a {
+    margin-right: 10px;
+}
+
+.social-media a i {
+    font-size: 23px;
+    text-decoration: none;
+    color: #000;
+}
+
+.social-media a i:hover {
+    color : #f0f0f0;
+    transition: 0.3s;
+}
+
+.app-download {
+    width: 100%;
+    /* background: green; */
+    margin-top: 20px;
+}
+
+.app-download h3 {
+    margin-top: 0px;
+    /* background: blue; */
+    font-size: 17px;
+}
+
+.app-download img {
+    width: 120px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* RESULT */
+
+.result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 70%;
+    height: 550px;;
+    padding: 15px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    border: 1px solid rgb(245, 198, 109);
+    margin: 40px auto;
+}
+
+.result img {
+    height: 120px;
+    width: 90px;
+    margin-top: 0px;
+}
+
+.the-result {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.the-test-result {
+    width: 35%;
+    background-color: #fff;
+    padding: 15px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    border: 1px solid rgb(245, 198, 109);
+    margin: 10px auto;
+}
+
+.ex-one, .ex-two {
+    font-size: 14px;
+}
+
+.the-test-result h4 {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.score-range {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.bmi-score {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.score {
+    /* display: none; */
+    color: rgb(103, 233, 103);
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.status {
+    /* display: none; */
+    margin-top: 0px;
+    color: rgb(103, 233, 103);
+    font-size: 25px;
+}
+
+/* CHANGE COLOR OF THE RESULT */
+
+.blue {
+    color: rgb(70, 150, 248);
+}
+
+.green {
+    color: rgb(79, 252, 79);
+}
+
+.yellow {
+    color: rgb(233, 233, 48);
+}
+
+.orange {
+    color: rgb(245, 176, 47);
+}
+
+.red {
+    color: rgb(234, 39, 39);
+}
+
+/* ==================== */
+
+
+
+.advice-to-consult {
+    font-size: 14px;
+}
+ 
+.data-information {
+    display: grid;
+    justify-content: center;
+}
+
+.data-information h6 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    padding-bottom: 5px;;
+    border-bottom: 1px solid #aeaeae;
+    /* background: blue; */
+}
+
+.data-information h6 span {
+    margin-right: 10px;
+    color: #5cadf4;
+}
+
+#years {
+    margin-left: 13px;
+}
+
+#gender-sex, #years, #height-cm, #weight-kg {
+    color: #000;
+}
+
+.expert-consult {
+    text-decoration: none;
+    color: #000;
+    background: #f0a650;
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 7px;
+}
+
+.expert-consult:hover {
+    background: #ebb87d;
+    transition: 0.3s;
+}
+
+.send-email {
+    margin-top: 30px;
+}
+
+.send-email p {
+    font-size: 14px;
+}
+
+.send-email input {
+    border: 1px solid rgb(245, 198, 109);
+    padding: 7px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.send-email button {
+    margin-top: 10px;
+    background: #85f910;
+}
+
+.send-email button:hover {
+    background: #abef68;
+    transition: 0.3s;
+}
+
+.copyright {
+    text-align: center;
+}
+
+
+
+/* RESPONSIVE */
+
+@media (max-width: 799px) {
+
+    .header-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+     }
+
+    .container-01 {
+        width: 90%;
+    }
+
+    .container-02 {
+        width: 90%;
+    }
+
+    .end-content {
+        width: 90%;
+    }
+
+    .result {
+        width: 90%;
+        height: 1215px;;
+    }
+
+    .the-result {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .the-test-result {
+        width: 85%;
+        background-color: #fff;
+        padding: 15px;
+        padding-bottom: 30px;
+        border-radius: 15px;
+        border: 1px solid rgb(245, 198, 109);
+        margin: 10px auto;
+    }
+
+}
+

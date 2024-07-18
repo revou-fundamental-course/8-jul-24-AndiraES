@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+        <title>BMI Calculator</title>
+    </head>
+
+    <body>
+        <div class="header-content">
+            <div class="container-01">
+                <div class="header">
+                    <h1>BMI Calculator</h1>
+                    <p>Transform your approach to health and fitness with our comprehensive BMI Calculator. Effortlessly compute your Body Mass Index (BMI) and gain invaluable insights into your current health status, empowering you to make informed decisions for a healthier future.</p>
+                </div>
+               <div class="advantages">
+                    <h3>Feature Advantages</h3>
+                    <ol>
+                        <li>Quick Results: Get instant BMI calculation by entering your height and weight.</li>
+                        <li>Health Insights: Understand your weight status with personalized feedback.</li>
+                        <li>Easy to Use: Simple interface for effortless health monitoring.</li>
+                    </ol>
+               </div>
+               <p class="bmi-explaination">A BMI calculator is a tool used to assess your Body Mass Index (BMI), a measure that relates your weight to your height. By inputting your weight and height into the calculator, it calculates your BMI, providing a numerical value that indicates whether your weight falls within a healthy range relative to your height. This helps you understand your overall health status and whether you may be underweight, normal weight, overweight, or obese, allowing for informed decisions about your health and wellness.</p>
+            </div>
+
+            <div class="container-02">
+                <!-- <div class="header">
+                    <h1>BMI Calculator</h1>
+                </div> -->
+        
+                <div class="content">
+                    <h4 class="sex">Sex</h4>
+                    <form class="form" onsubmit="countBmi(event)">
+                        <input type="radio" name="gender" value="male" id="m"><label class="male">Male</label>
+                        <input type="radio" name="gender" value="female" class="female-input" id="f"><label class="female">Female</label>
+                        <div class="input">
+                            <h4>Weight (kg)</h4>
+                            <input type="text" id="weight">
+                        </div>
+                        <div class="input">
+                            <h4>Age (years)</h4>
+                            <input type="text" id="age">
+                        </div>
+                        <div class="input">
+                            <h4>Height (cm)</h4>
+                            <input type="text" id="height">
+                        </div>
+                        <div class="button">
+                            <button id="hitung-bmi-00" onclick="countBmi()">Calculate BMI</button>
+                            <button class="reset" onclick="reset()">Reset</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="end-content">
+                <p>Discover the power of our BMI Calculator website, where you'll find a wealth of expert advice, comprehensive resources, and practical tools to enhance your health journey. Dive into our informative articles and stay informed with the latest insights, share valuable content with loved ones, and take charge of your wellness goals. Start today by downloading our intuitive app, designed to simplify tracking and support you every step towards achieving your optimal health.</p>
+                <div class="social-media">
+                    <h3>Share</h3>
+                    <div class="logo">
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="app-download">
+                    <h3>App Download</h3>
+                    <a href="#"><img src="img/app.jpg" alt="app-store"></a>
+                    <a href="#"><img src="img/play.jpg" alt="play-store"></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="all-result-00">
+            <div class="result">
+                <img id="image-photo" src="img/male.png" alt="male">
+                <div class="the-result">
+                    <div class="the-test-result">
+                        <p class="ex-one"></p>
+                        <!-- <br>  -->
+                        <p class="ex-two"></p>
+                    </div>
+                    <div class="the-test-result">
+                        <h4 class="bmi-score">BMI Score</h4>
+                        <h4 class="score"></h4>
+                        <h4 class="status"></h4>
+                        <div class="data-information">
+                            <h6><span>Gender</span> <span id="gender-sex"></span></h6>
+                            <h6><span>Age</span> <span id="years"></span></h6>
+                            <h6><span>Height</span> <span id="height-cm"></span></h6>
+                            <h6><span>Weight</span> <span id="weight-kg"></span></h6>
+                        </div>
+                        <p class="score-range"></p>
+                    </div>
+                    <div class="the-test-result">
+                        <p class="advice-to-consult">For personalized health recommendations aligned with your BMI results and to address any specific concerns or conditions, it's highly recommended to schedule a consultation with a licensed healthcare professional. They can provide tailored guidance, discuss potential health implications, and assist in creating a comprehensive plan to support your well-being. Your healthcare provider's expertise ensures that you receive accurate information and personalized advice relevant to your unique health profile.</p>
+                        <a href="#" class="expert-consult">Consult with Expert</a>
+                        <div class="send-email">
+                            <p>Send copy result to your email :</p>
+                            <input type="text" placeholder="email...">
+                            <button>Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <p class="copyright">&copy; copyright 2024 All right reserved | this site is made by Andira_e.s</p>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
